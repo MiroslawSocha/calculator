@@ -84,8 +84,8 @@ export default {
         parseFloat(this.current)
       )}`;
       this.previous = null;
-      setInterval(() => {
-        this.clear()
+      setTimeout(() => {
+        this.clear();
       }, 5000);
     },
   },
